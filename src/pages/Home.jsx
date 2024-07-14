@@ -55,7 +55,7 @@ const Home = () => {
                     <h1 className='font-mono text-black text-2xl'>Add your notes</h1>
                     <input
                         placeholder='title'
-                        onChange={(e) => setTitle(e.target.value)} // receive and use the event object
+                        onChange={(e) => setTittle(e.target.value)} // receive and use the event object
                         value={tittle}
                         className='w-full rounded-md border border-blue-700 p-2'
                     />
